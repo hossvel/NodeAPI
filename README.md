@@ -40,6 +40,6 @@ docker-compose up
 ```
 | Plugin | README |
 | ------ | ------ |
-| GitHub | https://github.com/hossvel/Angular7CRUD/blob/master/README.md|
-| GitHub | https://github.com/hossvel/NodeAPI/blob/master/README.md|
+| Client | https://github.com/hossvel/Angular7CRUD/blob/master/README.md|
+| Server | https://github.com/hossvel/NodeAPI/blob/master/README.md|
 
