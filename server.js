@@ -32,5 +32,5 @@ require('./product.routes.js')(app);
 
 // listen on port 3000
 app.listen(config.serverport, () => {
-  console.log("Server is listening on port " + config.serverport);
+  console.log("Server is listening on port: " + config.serverport);
 });
