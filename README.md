@@ -10,7 +10,7 @@ docker-compose down
 # To re-build
 docker-compose build
 # Multiples contenedores
-usar este docker-compose , con las imagenes ya generadas.  
+usar este docker-compose, con las imagenes ya generadas.  
 ```sh
 version: '3'
 services:
