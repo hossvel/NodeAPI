@@ -29,18 +29,6 @@ exports.create = (req, res) => {
     });
 };
 
-// Retrieve all products from the database.
-exports.findAll = (req, res) => {
-    Product.find()
-    .then(products => {
-        res.send(products);
-    }).catch(err => {
-        res.status(500).send({
-            message: err.message || "Something wrong while retrieving products."
-        });
-    });
-};
-
 // Find a single product with a productId
 exports.findOne = (req, res) => {
     Product.findById(req.params.productId)
@@ -119,3 +107,13 @@ exports.delete = (req, res) => {
         });
     });
 };
+
+// GET SUMA 
+exports.sumar = (req, res) => {
+    const result = Suma(parseFloat(req.params.a),parseFloat(req.params.b));
+    return req.body = { result };
+};
+
+module.exports.Suma = (a, b) => {
+    return a + b;
+  }

@@ -15,4 +15,8 @@ module.exports = (app) => {
 
     // Delete a Note with productId
     app.delete('/products/:productId', products.delete);
+
+     // Retrieve all Products
+     app.get('/products/sumar/:a/:b', products.sumar);
+
 }

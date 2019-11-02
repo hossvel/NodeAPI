@@ -28,6 +28,8 @@ mongoose
   app.get('/', (req, res) => {
     return res.status(200).json({ msg: 'Hola Mundo!! Productos' });
   });
+
+
 require('./product.routes.js')(app);
 
 // listen on port 3000
